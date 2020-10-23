@@ -1,0 +1,18 @@
+TODO:
+
+zero logon                  = 4  (hard)
+content security policy     = 8  (medium)
+physical security           = 7  (easy)
+SQL Injection               = 9  (easy)
+iOS Forensics               = 10 (easy)
+Buffer Overflow Prep        = 11 (easy)
+Network Services 2          = 11 (easy)
+Upload Vulnerabilities      = 12 (easy)
+Encryption - Crypto 101     = 12 (medium)
+Learn Rust                  = 14 (easy)
+
+
+Can't finish them for technical reasons:
+
+zth: obscure web            = 1 (easy)
+android hacking             = 1 (medium)
