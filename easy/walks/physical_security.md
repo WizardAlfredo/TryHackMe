@@ -187,12 +187,6 @@ This method would most likely go unnoticed even during a forensic investigation.
 [dictionary](http://www.lock-picking.org/m-p-locksmith-dictionary.html)  
 [article](https://www.blackhat.com/presentations/bh-europe-08/Deviant_Ollam/Whitepaper/bh-eu-08-deviant_ollam-WP.pdf)
 
-### Padlock Bypass
-
-|h  |h
-|---|---
-|4  |type of pick adv of lazy manufacturing by lifting all the key pins and driver pins (not in dictionary, comp)
-
 ### Hardware
 
 |h|h

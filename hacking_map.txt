@@ -1,0 +1,20 @@
+# TryHackMe
+
+- Web vulns
+    * prototype pollution -> easy/ctfs/kiba.md
+    * redis exploitation -> easy/ctfs/res.md
+    * injection -> easy/walks/owasp-juice-shop.md
+                -> easy/walks/sql_injection.md
+    * broken auth  -> easy/walks/owasp-juice-shop.md
+    * sensitive data exposure  -> easy/walks/owasp-juice-shop.md
+    * broken access control -> easy/walks/owasp-juice-shop.md
+    * xss -> easy/walks/owasp-juice-shop.md
+
+- Hacking printers
+    * hacking printers -> easy/walks/printers.md
+
+- Persistence
+    * basic persistence skill -> easy/walks/persistence.md
+
+- Physical pentesting
+    * Physical Security Intro -> easy/walks/physical_security.md
