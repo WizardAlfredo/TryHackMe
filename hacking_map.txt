@@ -10,6 +10,12 @@
     * broken access control -> easy/walks/owasp-juice-shop.md
     * xss -> easy/walks/owasp-juice-shop.md
 
+- Networking
+    * wireshark -> easy/walks/wireshark101.md
+
+- Analysis
+    * wireshark -> easy/walks/wireshark101.md
+
 - Hacking printers
     * hacking printers -> easy/walks/printers.md
 
