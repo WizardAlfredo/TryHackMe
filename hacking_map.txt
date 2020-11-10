@@ -9,12 +9,17 @@
     * sensitive data exposure  -> easy/walks/owasp-juice-shop.md
     * broken access control -> easy/walks/owasp-juice-shop.md
     * xss -> easy/walks/owasp-juice-shop.md
+    * graphQL -> easy/walks/graphQL.md
+
+- FTP
+    * writable dir -> easy/ctfs/startup.md
 
 - Networking
     * wireshark -> easy/walks/wireshark101.md
 
 - Analysis
     * wireshark -> easy/walks/wireshark101.md
+    * wireshark -> easy/ctfs/startup.md
 
 - Hacking printers
     * hacking printers -> easy/walks/printers.md
