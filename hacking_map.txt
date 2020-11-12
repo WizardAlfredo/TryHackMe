@@ -11,6 +11,9 @@
     * xss -> easy/walks/owasp-juice-shop.md
     * graphQL -> easy/walks/graphQL.md
 
+- Post exploitation in Linux
+    * linux local enum -> easy/walks/lle.md
+
 - FTP
     * writable dir -> easy/ctfs/startup.md
 
