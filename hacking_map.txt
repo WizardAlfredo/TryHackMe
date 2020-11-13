@@ -32,3 +32,6 @@
 
 - Physical pentesting
     * Physical Security Intro -> easy/walks/physical_security.md
+
+- Encryption
+    * Encryption 101 -> medium/walks/encryption.md

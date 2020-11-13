@@ -2,7 +2,7 @@
 
 ## Walkthroughs
 
-Number of Boxes: **18**
+Number of Boxes: **15**
 
 ### TODO
 
@@ -14,7 +14,6 @@ Number of Boxes: **18**
 |MITRE                    |8      |easy
 |MAL: REMnux - The Redux  |8      |easy
 |iOS Forensics            |10     |easy
-|Intro to JS              |10     |easy
 |Buffer Overflow Prep     |11     |easy
 |Network Services 2       |11     |easy
 |Upload Vulnerabilities   |12     |easy
@@ -28,6 +27,7 @@ Number of Boxes: **18**
 |---                      |---    |---
 |zth: obscure web         |1      |easy
 |android hacking          |1      |medium
+|NIS                      |1      |easy
 
 ```json
 ```
