@@ -2,7 +2,7 @@
 
 ## Walkthroughs
 
-Number of Boxes: **15**
+Number of Boxes: **14**
 
 ### TODO
 
@@ -18,7 +18,6 @@ Number of Boxes: **15**
 |Upload Vulnerabilities   |12     |easy
 |DLL Hijacking            |12     |medium
 |Learn Rust               |14     |easy
-|What the shell           |15     |easy
 
 ### Couldn't Finish
 
@@ -27,6 +26,7 @@ Number of Boxes: **15**
 |zth: obscure web         |1      |easy
 |android hacking          |1      |medium
 |NIS                      |1      |easy
+|What the shell           |15     |easy
 
 ```json
 ```
