@@ -8,7 +8,6 @@ Number of Boxes: **15**
 
 |Box                      |Tasks  |Difficulty
 |---                      |---    |---
-|zero logon               |4      |hard
 |intro to exploit dev     |6      |easy
 |content security policy  |8      |medium
 |MITRE                    |8      |easy
