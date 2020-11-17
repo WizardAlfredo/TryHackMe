@@ -1,5 +1,19 @@
 # TryHackMe
 
+## Recon
+
+- Physical pentesting
+    * Physical Security Intro -> easy/walks/physical_security.md
+
+## Scanning and Enumeration
+
+- Networking
+    * wireshark -> easy/walks/wireshark101.md
+
+- Analysis
+    * wireshark -> easy/walks/wireshark101.md
+    * wireshark -> easy/ctfs/startup.md
+
 - Web vulns
     * prototype pollution -> easy/ctfs/kiba.md
     * redis exploitation -> easy/ctfs/res.md
@@ -11,31 +25,38 @@
     * xss -> easy/walks/owasp-juice-shop.md
     * graphQL -> easy/walks/graphQL.md
 
-- Post exploitation
-    * linux local enum -> easy/walks/lle.md
-    * What the shell -> easy/walks/what_the_shell.md
-
 - FTP
     * writable dir -> easy/ctfs/startup.md
-
-- Networking
-    * wireshark -> easy/walks/wireshark101.md
-
-- Analysis
-    * wireshark -> easy/walks/wireshark101.md
-    * wireshark -> easy/ctfs/startup.md
 
 - Hacking printers
     * hacking printers -> easy/walks/printers.md
 
+## Exploitation
+
+- Uploading Vulnerabilities and Bypassing 
+    * uploading vulns -> easy/walks/upload_vulns.md
+
+- Exploitation for Windows
+    * Zero Logon -> hard/walks/zero_logon.md
+    * AttactiveDirectory -> medium/ctfs/attacktive_dir.md
+
+## Post Exploitation
+
+- Post exploitation
+    * linux local enum -> easy/walks/lle.md
+    * What the shell -> easy/walks/what_the_shell.md
+
+## Privilege Escalation
+
+## Maintaning Access
+
 - Persistence
     * basic persistence skill -> easy/walks/persistence.md
 
-- Physical pentesting
-    * Physical Security Intro -> easy/walks/physical_security.md
+## Cleaning Up
+
+## Others
 
 - Encryption
     * Encryption 101 -> medium/walks/encryption.md
 
-- Exploitation for Windows
-    * Zero Logon -> hard/walks/zero_logon.md

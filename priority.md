@@ -2,7 +2,7 @@
 
 ## Walkthroughs
 
-Number of Boxes: **14**
+Number of Boxes: **10**
 
 ### TODO
 
@@ -15,9 +15,7 @@ Number of Boxes: **14**
 |iOS Forensics            |10     |easy
 |Buffer Overflow Prep     |11     |easy
 |Network Services 2       |11     |easy
-|Upload Vulnerabilities   |12     |easy
 |DLL Hijacking            |12     |medium
-|Learn Rust               |14     |easy
 
 ### Couldn't Finish
 
@@ -25,8 +23,3 @@ Number of Boxes: **14**
 |---                      |---    |---
 |zth: obscure web         |1      |easy
 |android hacking          |1      |medium
-|NIS                      |1      |easy
-|What the shell           |15     |easy
-
-```json
-```
