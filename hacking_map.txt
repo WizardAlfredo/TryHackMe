@@ -55,6 +55,9 @@
 
 ## Cleaning Up
 
+- Windows Forensics
+    * Investigating Windows -> medium/ctfs/windows_inv.md
+
 ## Others
 
 - Encryption
