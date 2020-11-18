@@ -9,6 +9,7 @@
 
 - Networking
     * wireshark -> easy/walks/wireshark101.md
+    * NFS, SMTP, MySQL -> easy/walks/network_serv2.md
 
 - Analysis
     * wireshark -> easy/walks/wireshark101.md
@@ -47,6 +48,9 @@
     * What the shell -> easy/walks/what_the_shell.md
 
 ## Privilege Escalation
+
+- Different Protocols
+    * NFS -> easy/walks/network_serv2.md
 
 ## Maintaning Access
 
