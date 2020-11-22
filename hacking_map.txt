@@ -9,7 +9,6 @@
 
 - Networking
     * wireshark -> easy/walks/wireshark101.md
-    * NFS, SMTP, MySQL -> easy/walks/network_serv2.md
 
 - Analysis
     * wireshark -> easy/walks/wireshark101.md
@@ -26,8 +25,12 @@
     * xss -> easy/walks/owasp-juice-shop.md
     * graphQL -> easy/walks/graphQL.md
 
-- FTP
-    * writable dir -> easy/ctfs/startup.md
+Services
+    * FTP -> easy/ctfs/startup.md
+    * SMB -> medium/ctfs/relevant.md
+    * NFS -> easy/walks/network_serv2.md
+    * SMTP -> easy/walks/network_serv2.md
+    * MySQL -> easy/walks/network_serv2.md
 
 - Hacking printers
     * hacking printers -> easy/walks/printers.md
@@ -39,7 +42,8 @@
 
 - Exploitation for Windows
     * Zero Logon -> hard/walks/zero_logon.md
-    * AttactiveDirectory -> medium/ctfs/attacktive_dir.md
+    * Active Dir attack -> medium/ctfs/attacktive_dir.md
+    * SMB + 80 -> medium/ctfs/relevant.md
 
 ## Post Exploitation
 

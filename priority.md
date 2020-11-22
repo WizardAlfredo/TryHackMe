@@ -8,7 +8,7 @@ Number of Boxes: **10**
 
 |Box                      |Tasks  |Difficulty
 |---                      |---    |---
-|Attacking ICS Plant #1    |5      |easy
+|Attacking ICS Plant #1   |5      |easy
 |intro to exploit dev     |6      |easy
 |content security policy  |8      |medium
 |MITRE                    |8      |easy
@@ -23,3 +23,4 @@ Number of Boxes: **10**
 |---                      |---    |---
 |zth: obscure web         |1      |easy
 |android hacking          |1      |medium
+|network services 2       |1      |easy
