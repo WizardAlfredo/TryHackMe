@@ -4,6 +4,7 @@
 
 - Physical pentesting
     * Physical Security Intro -> easy/walks/physical_security.md
+    * Discovering the reg of ICS -> easy/walks/attacking_ics1.md
 
 ## Scanning and Enumeration
 
@@ -44,6 +45,9 @@ Services
     * Zero Logon -> hard/walks/zero_logon.md
     * Active Dir attack -> medium/ctfs/attacktive_dir.md
     * SMB + 80 -> medium/ctfs/relevant.md
+
+- Attacking ICS
+    * changing sensors and doing fun stuff -> easy/walks/attacking_ics1.md
 
 ## Post Exploitation
 
