@@ -29,6 +29,7 @@
 Services
     * FTP -> easy/ctfs/startup.md
     * SMB -> medium/ctfs/relevant.md
+          -> medium/ctfs/binex.md
     * NFS -> easy/walks/network_serv2.md
     * SMTP -> easy/walks/network_serv2.md
     * MySQL -> easy/walks/network_serv2.md
@@ -54,11 +55,15 @@ Services
 - Post exploitation
     * linux local enum -> easy/walks/lle.md
     * What the shell -> easy/walks/what_the_shell.md
+    * Buffer Overflow -> medium/ctfs/binex.md
 
 ## Privilege Escalation
 
 - Different Protocols
     * NFS -> easy/walks/network_serv2.md
+
+- Path Manipulation
+    * Changing the path -> medium/ctfs/binex.md
 
 ## Maintaning Access
 

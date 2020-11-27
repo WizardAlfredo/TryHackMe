@@ -22,4 +22,3 @@ Number of Boxes: **10**
 |---                      |---    |---
 |zth: obscure web         |1      |easy
 |android hacking          |1      |medium
-|network services 2       |1      |easy
