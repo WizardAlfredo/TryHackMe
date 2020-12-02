@@ -20,6 +20,7 @@
     * redis exploitation -> easy/ctfs/res.md
     * injection -> easy/walks/owasp-juice-shop.md
                 -> easy/walks/sql_injection.md
+    * rce -> easy/ctfs/chill_hack.md
     * broken auth  -> easy/walks/owasp-juice-shop.md
     * sensitive data exposure  -> easy/walks/owasp-juice-shop.md
     * broken access control -> easy/walks/owasp-juice-shop.md
@@ -41,6 +42,7 @@ Services
 
 - Uploading Vulnerabilities and Bypassing 
     * uploading vulns -> easy/walks/upload_vulns.md
+    * bypassing filter -> easy/ctfs/chill_hack.md
 
 - Exploitation for Windows
     * Zero Logon -> hard/walks/zero_logon.md
