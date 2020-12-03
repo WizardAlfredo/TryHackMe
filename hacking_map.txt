@@ -43,6 +43,9 @@ Services
 
 ## Exploitation
 
+- BOFS
+    * practicing -> easy/walks/oscp_buf.md
+
 - Uploading Vulnerabilities and Bypassing 
     * uploading vulns -> easy/walks/upload_vulns.md
     * bypassing filter -> easy/ctfs/chill_hack.md
