@@ -8,6 +8,9 @@
 
 ## Scanning and Enumeration
 
+- Scanning
+    * nmap -> easy/walks/nmap.md
+
 - Networking
     * wireshark -> easy/walks/wireshark101.md
 
