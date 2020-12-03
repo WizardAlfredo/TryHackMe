@@ -2,7 +2,7 @@
 
 ## Walkthroughs
 
-Number of Boxes: **19**
+Number of Boxes: **15**
 
 ### TODO
 
@@ -16,15 +16,11 @@ Number of Boxes: **19**
 |MAL: REMnux - The Redux  |8      |easy
 |iOS Forensics            |10     |easy
 |Buffer Overflow Prep     |11     |easy
-|Linux Fundamental 1      |11     |easy
 |Yara                     |12     |easy
 |DLL Hijacking            |12     |medium
 |The Docker Rodeo         |14     |medium
-|Linux Fundamental 3      |15     |easy
-|Nmap                     |15     |easy
 |Hardening Basics Part 1  |15     |easy
 |Hardening Basics Part 2  |15     |easy
-|Linux Fundamental 2      |18     |easy
 
 ### Couldn't Finish
 
