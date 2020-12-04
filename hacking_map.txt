@@ -73,6 +73,9 @@ Services
 - Path Manipulation
     * Changing the path -> medium/ctfs/binex.md
 
+- From proccesses or interesting files
+    * firefox creds -> medium/ctfs/gatekeeper.md
+
 ## Maintaning Access
 
 - Persistence
