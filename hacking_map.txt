@@ -5,6 +5,7 @@
 - Physical pentesting
     * Physical Security Intro -> easy/walks/physical_security.md
     * Discovering the reg of ICS -> easy/walks/attacking_ics1.md
+    * OSINT practice -> easy/ctfs/imint.md
 
 ## Scanning and Enumeration
 
@@ -17,6 +18,7 @@
 - Analysis
     * wireshark -> easy/walks/wireshark101.md
     * wireshark -> easy/ctfs/startup.md
+    * linux foo -> easy/walks/linux_str_tr.md
 
 - Web vulns
     * prototype pollution -> easy/ctfs/kiba.md
