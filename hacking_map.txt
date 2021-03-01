@@ -60,6 +60,9 @@ Services
 
 ## Post Exploitation
 
+- Linux Skills
+    * path manipulation -> medium/walks/linux_agency.md
+
 - Post exploitation
     * linux local enum -> easy/walks/lle.md
     * What the shell -> easy/walks/what_the_shell.md
@@ -75,6 +78,9 @@ Services
 
 - From proccesses or interesting files
     * firefox creds -> medium/ctfs/gatekeeper.md
+
+- Docker
+    * docker escape -> medium/walks/linux_agency.md
 
 ## Maintaning Access
 

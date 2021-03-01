@@ -45,6 +45,20 @@ export TERM=xterm
 export SHELL=bash
 ```
 
+After that in order for the shell to not break, we can see the size of our stty:
+
+```bash
+stty size
+```
+
+In my case it is `59 207`
+
+And set up the reverse shell the same way with:
+
+```bash
+stty rows 59 columns 207
+```
+
 ## ssh
 
 To make things even better, you should always try and get shell access to the box.
