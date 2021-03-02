@@ -6,6 +6,9 @@
     * Physical Security Intro -> easy/walks/physical_security.md
     * Discovering the reg of ICS -> easy/walks/attacking_ics1.md
 
+- OSINT
+    * Usefull info, methodology -> easy/ctfs/webosint.md
+
 ## Scanning and Enumeration
 
 - Scanning
